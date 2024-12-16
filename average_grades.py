@@ -6,7 +6,7 @@ for number in student_test_grades:
 
 avg_denominator = len(student_test_grades)
 avg_numerator = total
-result = total / avg_denominator
+result = avg_numerator / avg_denominator
 
 print("Average score for the class is...\n" )
 print(result)
