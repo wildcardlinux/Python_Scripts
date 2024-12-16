@@ -1,11 +1,7 @@
 student_test_grades = [100, 88, 77, 66, 99]
-total = 0
-
-for number in student_test_grades:
-  total += number
 
 avg_denominator = len(student_test_grades)
-avg_numerator = total
+avg_numerator = sum(student_test_grades)
 result = avg_numerator / avg_denominator
 
 print("Average score for the class is...\n" )
